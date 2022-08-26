@@ -5,3 +5,11 @@ router.get('/', (req, res) => {
 })
 
 module.exports = router
+
+// GET /places
+app.get('/', (req, res) => {
+    let places = []
+    res.render('places/index')
+  })
+  
+  
